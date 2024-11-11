@@ -6,7 +6,22 @@ using System.Threading.Tasks;
 
 namespace NeetCode150.ArraysAndHashing
 {
-    //3. https://neetcode.io/problems/two-integer-sum
+    /// <summary>
+    /// <para>Given an array of integers nums and an integer target, return the indices i and j 
+    /// such that nums[i] + nums[j] == target and i != j.
+    /// You may assume that every input has exactly one pair of indices i and j that satisfy the condition.
+    /// Return the answer with the smaller index first.</para>
+    /// <para>Example 1:<br/>
+    /// Input: nums = [3,4,5,6], target = 7<br/>
+    /// Output: [0,1]</para>
+    /// <para>Example 2:<br/>
+    /// Input: nums = [4,5,6], target = 10<br/>
+    /// Output: [0,2]</para>
+    /// <para>Example 3:<br/>
+    /// Input: nums = [5,5], target = 10<br/>
+    /// Output: [0,1]</para>
+    /// <see href="https://neetcode.io/problems/two-integer-sum"/>
+    /// </summary>
     public class TwoSum
     {
         public static int[] Find(int[] nums, int target)

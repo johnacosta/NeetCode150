@@ -6,7 +6,17 @@ using System.Threading.Tasks;
 
 namespace NeetCode150.ArraysAndHashing
 {
-    //4. https://neetcode.io/problems/anagram-groups
+    /// <summary>
+    /// <para>Given an array of strings strs, group all anagrams together into sublists. You may return the output in any order.
+    /// An anagram is a string that contains the exact same characters as another string, but the order of the characters can be different.</para>
+    /// <para>Example 1:<br/>
+    /// Input: strs = ["act","pots","tops","cat","stop","hat"]<br/>
+    /// Output: [["hat"],["act", "cat"],["stop", "pots", "tops"]]</para>
+    /// <para>Example 2:<br/>
+    /// Input: strs = ["x"]<br/>
+    /// Output: [["x"]]</para>
+    /// <see href="https://neetcode.io/problems/anagram-groups"/>
+    /// </summary>
     internal static class Anagram
     {
         public static List<List<string>> GroupAnagrams(string[] strs)
