@@ -22,6 +22,10 @@ namespace NeetCode150
             var topKFrequent = TopKFrequent.Find(nums, k);
 
             /*------------------------------------------*/
+            var encodedStr = EncodeDecode.Encode(EncodeDecode.GetTestData());
+            EncodeDecode.Decode(encodedStr);
+
+            /*------------------------------------------*/
             Console.ReadKey();
         }
     }
