@@ -26,6 +26,10 @@ namespace NeetCode150
             EncodeDecode.Decode(encodedStr);
 
             /*------------------------------------------*/
+
+            ProductArrayExceptSelf.Find(ProductArrayExceptSelf.GetTestData());
+
+            /*------------------------------------------*/
             Console.ReadKey();
         }
     }
